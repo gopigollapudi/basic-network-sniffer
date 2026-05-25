@@ -1,2 +1,1 @@
-```txt
-# No external libraries required
+# No external dependencies required
