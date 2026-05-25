@@ -40,6 +40,13 @@ basic-network-sniffer/
 # Clone Repository
 git clone https://github.com/your-username/basic-network-sniffer.git
 
+`md id="y6xg0x"
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Linux-orange)
+
+# Basic Network Sniffer
+
 # Move to Project Directory
 cd basic-network-sniffer
 
