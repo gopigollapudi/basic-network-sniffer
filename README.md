@@ -12,18 +12,25 @@
 
 ## Overview
 
-The **Basic Network Sniffer** is a cybersecurity project developed in Python to capture and inspect live network traffic directly from the network interface.
+The **Basic Network Sniffer** is a Python-based cybersecurity project developed to capture and inspect live network traffic directly from the network interface using raw socket programming.
 
-This project demonstrates packet sniffing, TCP/IP protocol analysis, raw socket programming, and basic cybersecurity traffic inspection.
+This project demonstrates:
 
-The sniffer displays useful packet information such as:
+- Packet sniffing
+- Network traffic monitoring
+- TCP/IP protocol analysis
+- Raw socket programming
+- Packet inspection techniques
+- Cybersecurity traffic analysis
+
+The sniffer extracts useful information including:
 
 - Source and destination IP addresses
-- Source and destination MAC addresses
+- MAC addresses
 - TCP/UDP port numbers
 - Protocol types
-- ICMP packet details
-- Packet payload data
+- ICMP packet information
+- Payload data
 
 ---
 
@@ -32,12 +39,13 @@ The sniffer displays useful packet information such as:
 - Real-time packet capturing
 - Ethernet frame analysis
 - IPv4 packet decoding
-- TCP packet inspection
-- UDP packet inspection
+- TCP protocol inspection
+- UDP protocol inspection
 - ICMP packet analysis
-- Payload extraction
+- Packet payload extraction
 - Hexadecimal and ASCII payload formatting
-- Lightweight terminal-based output
+- Lightweight terminal-based implementation
+- Structured and readable packet output
 
 ---
 
@@ -45,10 +53,11 @@ The sniffer displays useful packet information such as:
 
 | Technology | Purpose |
 |---|---|
-| Python 3 | Core Programming Language |
+| Python 3 | Core programming language |
 | socket | Raw packet capturing |
 | struct | Binary packet parsing |
 | textwrap | Payload formatting |
+
 ---
 
 ## Project Architecture
@@ -160,15 +169,16 @@ TCP Segment:
 | TCP | Transmission Control Protocol |
 | UDP | User Datagram Protocol |
 | ICMP | Internet Control Message Protocol |
+
 ---
 
 ## Educational Objectives
 
 - Understand packet sniffing concepts
-- Learn network traffic monitoring
-- Analyze TCP/IP communication
+- Learn network traffic monitoring techniques
+- Analyze TCP/IP protocol communication
 - Explore raw socket programming
-- Perform protocol inspection
+- Perform protocol inspection and analysis
 - Understand cybersecurity monitoring fundamentals
 
 ---
@@ -179,9 +189,10 @@ TCP Segment:
 - Packet inspection
 - Protocol analysis
 - Cybersecurity research
-- Intrusion detection learning
+- Intrusion detection research
 - Ethical hacking practice
 - Network security education
+- Traffic analysis and debugging
 
 ---
 
@@ -189,12 +200,13 @@ TCP Segment:
 
 - GUI-based packet analyzer
 - Protocol-based packet filtering
-- PCAP file export
+- PCAP file export support
 - Real-time traffic visualization
 - Intrusion detection features
 - Threat detection mechanisms
 - Multi-threaded packet processing
 - Scapy integration
+- Live dashboard monitoring
 
 ---
 
@@ -206,13 +218,13 @@ This project is intended strictly for:
 - Ethical cybersecurity research
 - Authorized network monitoring
 
-Unauthorized packet sniffing or monitoring without permission may violate laws and regulations.
+Unauthorized packet sniffing or monitoring without proper permission may violate laws and regulations.
 
 ---
 
 ## Disclaimer
 
-This project is developed only for educational and ethical cybersecurity learning. The developer is not responsible for any misuse of this tool.
+This project is developed solely for educational and ethical cybersecurity learning purposes. The developer is not responsible for any misuse of this tool.
 
 ---
 
