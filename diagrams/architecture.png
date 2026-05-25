@@ -1,0 +1,9 @@
+Network Interface
+       ↓
+Raw Socket
+       ↓
+Packet Capture
+       ↓
+Protocol Analyzer
+       ↓
+Formatted Output
