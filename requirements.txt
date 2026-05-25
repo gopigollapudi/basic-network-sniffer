@@ -1,6 +1,1 @@
-# No external dependencies required
-
-# This project uses only Python standard libraries:
-# socket   - for raw packet capturing
-# struct   - for binary packet parsing
-# textwrap - for formatting packet payload output
+scapy
