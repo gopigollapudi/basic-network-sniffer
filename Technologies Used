@@ -1,0 +1,7 @@
+
+| Technology | Purpose |
+|---|---|
+| Python 3 | Core Programming Language |
+| socket | Raw packet capturing |
+| struct | Binary packet parsing |
+| textwrap | Payload formatting |
