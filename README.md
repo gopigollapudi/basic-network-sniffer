@@ -45,11 +45,10 @@ The sniffer displays useful packet information such as:
 
 | Technology | Purpose |
 |---|---|
-| Python 3 | Core programming language |
+| Python 3 | Core Programming Language |
 | socket | Raw packet capturing |
 | struct | Binary packet parsing |
 | textwrap | Payload formatting |
-
 ---
 
 ## Project Architecture
@@ -156,12 +155,11 @@ TCP Segment:
 
 | Protocol | Description |
 |---|---|
-| Ethernet | Data Link Layer protocol |
-| IPv4 | Internet Layer protocol |
+| Ethernet | Data Link Layer Protocol |
+| IPv4 | Internet Layer Protocol |
 | TCP | Transmission Control Protocol |
 | UDP | User Datagram Protocol |
 | ICMP | Internet Control Message Protocol |
-
 ---
 
 ## Educational Objectives
