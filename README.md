@@ -12,25 +12,18 @@
 
 ## Overview
 
-The **Basic Network Sniffer** is a Python-based cybersecurity project developed to capture and inspect live network traffic directly from the network interface using raw socket programming.
+The **Basic Network Sniffer** is a cybersecurity project developed in Python to capture and inspect live network traffic directly from the network interface.
 
-This project demonstrates the fundamentals of:
+This project demonstrates packet sniffing, TCP/IP protocol analysis, raw socket programming, and basic cybersecurity traffic inspection.
 
-- Packet Sniffing
-- Network Traffic Monitoring
-- TCP/IP Protocol Analysis
-- Raw Socket Programming
-- Packet Inspection Techniques
-- Cyber Security Traffic Analysis
+The sniffer displays useful packet information such as:
 
-The sniffer captures and analyzes packets in real time and extracts useful information including:
-
-- Source and Destination IP Addresses
-- MAC Addresses
-- TCP/UDP Port Numbers
-- Protocol Types
-- ICMP Packet Information
-- Payload Data
+- Source and destination IP addresses
+- Source and destination MAC addresses
+- TCP/UDP port numbers
+- Protocol types
+- ICMP packet details
+- Packet payload data
 
 ---
 
@@ -39,13 +32,12 @@ The sniffer captures and analyzes packets in real time and extracts useful infor
 - Real-time packet capturing
 - Ethernet frame analysis
 - IPv4 packet decoding
-- TCP protocol inspection
-- UDP protocol inspection
+- TCP packet inspection
+- UDP packet inspection
 - ICMP packet analysis
-- Packet payload extraction
+- Payload extraction
 - Hexadecimal and ASCII payload formatting
-- Lightweight terminal-based implementation
-- Structured and readable packet output
+- Lightweight terminal-based output
 
 ---
 
@@ -53,7 +45,7 @@ The sniffer captures and analyzes packets in real time and extracts useful infor
 
 | Technology | Purpose |
 |---|---|
-| Python 3 | Core Programming Language |
+| Python 3 | Core programming language |
 | socket | Raw packet capturing |
 | struct | Binary packet parsing |
 | textwrap | Payload formatting |
@@ -86,8 +78,7 @@ basic-network-sniffer/
 ├── sniffer.py
 ├── README.md
 ├── requirements.txt
-├── LICENSE
-├── .gitignore
+├── License
 ├── screenshots/
 │   └── terminal-output.png
 └── diagrams/
@@ -104,8 +95,6 @@ basic-network-sniffer/
 git clone https://github.com/gopigollapudi/basic-network-sniffer.git
 ```
 
----
-
 ### Navigate to the Project Directory
 
 ```bash
@@ -118,23 +107,19 @@ cd basic-network-sniffer
 
 ### Linux
 
-Run the program with root privileges:
-
 ```bash
 sudo python3 sniffer.py
 ```
 
----
-
 ### Windows
 
-Open Command Prompt as Administrator and execute:
+Open Command Prompt as Administrator and run:
 
 ```bash
 python sniffer.py
 ```
 
-> Note: Raw socket support is limited on Windows operating systems.
+> Note: Raw socket support is limited on Windows. Linux is recommended.
 
 ---
 
@@ -161,12 +146,18 @@ TCP Segment:
 
 ---
 
+## Screenshots
+
+![Terminal Output](screenshots/terminal-output.png)
+
+---
+
 ## Supported Protocols
 
 | Protocol | Description |
 |---|---|
-| Ethernet | Data Link Layer Protocol |
-| IPv4 | Internet Layer Protocol |
+| Ethernet | Data Link Layer protocol |
+| IPv4 | Internet Layer protocol |
 | TCP | Transmission Control Protocol |
 | UDP | User Datagram Protocol |
 | ICMP | Internet Control Message Protocol |
@@ -176,38 +167,36 @@ TCP Segment:
 ## Educational Objectives
 
 - Understand packet sniffing concepts
-- Learn network traffic monitoring techniques
-- Analyze TCP/IP protocol communication
+- Learn network traffic monitoring
+- Analyze TCP/IP communication
 - Explore raw socket programming
-- Perform protocol inspection and analysis
+- Perform protocol inspection
 - Understand cybersecurity monitoring fundamentals
 
 ---
 
 ## Applications
 
-- Network Traffic Monitoring
-- Packet Inspection
-- Protocol Analysis
-- Cyber Security Research
-- Intrusion Detection Research
-- Ethical Hacking Practice
-- Network Security Education
-- Traffic Analysis and Debugging
+- Network traffic monitoring
+- Packet inspection
+- Protocol analysis
+- Cybersecurity research
+- Intrusion detection learning
+- Ethical hacking practice
+- Network security education
 
 ---
 
 ## Future Enhancements
 
-- GUI-based Packet Analyzer
-- Protocol-based Packet Filtering
-- PCAP File Export Support
-- Real-time Traffic Visualization
-- Intrusion Detection Features
-- Threat Detection Mechanisms
-- Multi-threaded Packet Processing
-- Scapy Integration
-- Live Dashboard Monitoring
+- GUI-based packet analyzer
+- Protocol-based packet filtering
+- PCAP file export
+- Real-time traffic visualization
+- Intrusion detection features
+- Threat detection mechanisms
+- Multi-threaded packet processing
+- Scapy integration
 
 ---
 
@@ -215,47 +204,17 @@ TCP Segment:
 
 This project is intended strictly for:
 
-- Educational Purposes
-- Ethical Cyber Security Research
-- Authorized Network Monitoring
+- Educational purposes
+- Ethical cybersecurity research
+- Authorized network monitoring
 
-Unauthorized packet sniffing or monitoring without proper permission may violate laws and regulations.
+Unauthorized packet sniffing or monitoring without permission may violate laws and regulations.
 
 ---
 
 ## Disclaimer
 
-This project is developed solely for educational and ethical cybersecurity learning purposes. The developer is not responsible for any misuse of this tool.
-
----
-
-## Screenshots
-
-Add your terminal output screenshots inside:
-
-```bash
-screenshots/
-```
-
-Example:
-
-```bash
-screenshots/terminal-output.png
-```
-
-Then display it using:
-
-```md
-![Sample Output](screenshots/terminal-output.png)
-```
-
----
-
-## requirements.txt
-
-```txt
-# No external dependencies required
-```
+This project is developed only for educational and ethical cybersecurity learning. The developer is not responsible for any misuse of this tool.
 
 ---
 
