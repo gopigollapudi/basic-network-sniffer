@@ -1,0 +1,9 @@
+Network Interface
+       ↓
+Packet Capture (Scapy)
+       ↓
+Packet Analyzer
+       ↓
+Protocol Detection
+       ↓
+Formatted Output
